@@ -20,6 +20,20 @@
                   <div class="form-group">
                     <label for="name">Nama</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan Nama" value="{{ old('name') }}" required>
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Pilih Gate...</option>
+                      <option value="Gate 1">Gate 1</option>
+                      <option value="Gate 2">Gate 2</option>
+                      <option value="Gate 3">Gate 3</option>
+                      <option value="Gate 4">Gate 4</option>
+                      <option value="Gate 5">Gate 5</option>
+                      <option value="Gate 6">Gate 6</option>
+                      <option value="Gate 7">Gate 7</option>
+                      <option value="Gate 8">Gate 8</option>
+                      <option value="Gate 9">Gate 9</option>
+                      <option value="Gate 10">Gate 10</option>
+                      <option value="Gate 11">Gate 11</option>
+                    </select>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Deskripsi</label>
