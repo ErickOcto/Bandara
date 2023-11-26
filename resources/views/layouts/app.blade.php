@@ -31,6 +31,19 @@
   <link rel="stylesheet" href="{{ asset('adminlte/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ asset('adminlte/dist/css/adminlte.min.css') }}">
+
+
+    <script>
+        // Fungsi untuk mengubah kelas sidebar
+        function toggleSidebarr() {
+            var sidebar = document.querySelector(".sidebar-mini.sidebar-closed.sidebar-collapse");
+            if (sidebar) {
+                // Jika elemen ditemukan
+                sidebar.classList.remove("sidebar-closed", "sidebar-collapse");
+                sidebar.classList.add("sidebar-open");
+            }
+        }
+    </script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     @include('components.sidebar')

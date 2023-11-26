@@ -4,13 +4,14 @@
   {{-- <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="{{ asset('adminlte/dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60" width="60">
   </div> --}}
+  
 
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars" onclick="toggleSidebarr()"></i></a>
       </li>
     </ul>
   </nav>
@@ -60,7 +61,7 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="{{ route('user.index') }}" class="nav-link">
               <i class="nav-icon fas fa-user-friends"></i>
               <p>
@@ -75,7 +76,7 @@
                 Absen
               </p>
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <form method="POST" action="{{ route('logout') }}">
             @csrf

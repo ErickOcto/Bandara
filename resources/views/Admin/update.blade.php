@@ -6,7 +6,7 @@
                     <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Form Tambah Data</h3>
+                <h3 class="card-title">Form Edit Data</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->

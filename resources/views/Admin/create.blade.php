@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="row my-5">
-        <div class="col-5">
+        <div class="col-12 col-lg-5">
         <div class="card fixed">
             <div class="card-body">
             <!-- general form elements -->
@@ -62,7 +62,7 @@
         </div>
 
         </div>
-        <div class="col-7">
+        <div class="col-12 col-lg-7">
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Daftar Speedtest</h3>
